@@ -16,4 +16,4 @@ export interface CartItem {
   quantity: number
 }
 
-export type Category = 'Todos' | 'Anillos' | 'Pulseras' | 'Cadenas' | 'Aros' | 'Conjuntos'
+export type Category = 'Todos' | 'Anillos' | 'Aros'
