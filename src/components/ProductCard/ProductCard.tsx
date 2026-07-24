@@ -35,7 +35,7 @@ export default function ProductCard({ product }: Props) {
         {/* Add to cart overlay — always visible on mobile, hover on desktop */}
         <button
           onClick={handleAdd}
-          className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-20 py-3 text-xs tracking-[0.15em] uppercase text-gray-800 flex items-center justify-center gap-2 transition-transform duration-300 sm:bg-opacity-95 sm:translate-y-full sm:group-hover:translate-y-0"
+          className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-60 py-2 text-[10px] tracking-[0.1em] uppercase text-gray-800 flex items-center justify-center gap-1.5 transition-transform duration-300 sm:bg-opacity-95 sm:translate-y-full sm:group-hover:translate-y-0"
         >
           <ShoppingBag size={14} strokeWidth={1.5} />
           Agregar al carrito
